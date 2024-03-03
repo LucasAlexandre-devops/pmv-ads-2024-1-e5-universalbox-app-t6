@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# BARBEARIA 037
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE UM SISTEMA SOCIOTÉCNICO INOVADOR`
 
-`SEMESTRE`
+`2024/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de um aplicativo móvel para uma barbearia, com o objetivo de facilitar o processo de agendamento de horários para cortes de cabelo e serviços relacionados. O aplicativo permitirá aos clientes visualizar os horários disponíveis, selecionar o profissional desejado, escolher o serviço e agendar a data e hora mais conveniente para eles. O aplicativo visa proporcionar conveniência aos clientes, reduzir o tempo de espera e otimizar a gestão de agendamentos para a barbearia. Além disso, o projeto visa também otimizar o trabalho dos prestadores de serviço. Os profissionais terão acesso a uma interface intuitiva que lhes permitirá gerenciar facilmente sua agenda e visualizar os horários reservados e disponíveis, aumentando a eficiência no atendimento e permitindo o planejamento do dia.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriel Miranda Cangussu
+* Hiago Filippe de Assis Soares Leão
+* Lucas Alexandre da Silva Santos
+* Mariana Marcela Mercier de Oliveira
+* Paulo Vitor Pereira Rocha
+* Thassia Diandra Ferreira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
