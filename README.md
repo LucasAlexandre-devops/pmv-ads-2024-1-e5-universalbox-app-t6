@@ -1,4 +1,4 @@
-# BARBEARIA 037
+# UNIVERSAL BOX
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
@@ -6,7 +6,7 @@
 
 `2024/1`
 
-O projeto consiste no desenvolvimento de um aplicativo móvel para uma barbearia, com o objetivo de facilitar o processo de agendamento de horários para cortes de cabelo e serviços relacionados. O aplicativo permitirá aos clientes visualizar os horários disponíveis, selecionar o profissional desejado, escolher o serviço e agendar a data e hora mais conveniente para eles. O aplicativo visa proporcionar conveniência aos clientes, reduzir o tempo de espera e otimizar a gestão de agendamentos para a barbearia. Além disso, o projeto visa também otimizar o trabalho dos prestadores de serviço. Os profissionais terão acesso a uma interface intuitiva que lhes permitirá gerenciar facilmente sua agenda e visualizar os horários reservados e disponíveis, aumentando a eficiência no atendimento e permitindo o planejamento do dia.
+O projeto consiste no desenvolvimento de um aplicativo móvel para uma empresa de esquadrias de alúmino e box, com o objetivo de facilitar o processo de gestão de estoque. O aplicativo visa otimizar o trabalho do cliente, que terá acesso a uma interface intuitiva que lhe permitirá gerenciar facilmente o seu produto (estando disponível ou em falta), aumentando assim a eficiência no atendimento e permitindo o plnajeamento dos serviços prestados. 
 
 ## Integrantes
 
