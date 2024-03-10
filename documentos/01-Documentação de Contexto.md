@@ -6,12 +6,6 @@ O mercado de esquadrias de alumínio e instalação de box é dinâmico e requer
 ## Problema
 O cliente enfrenta dificuldades na gestão manual do estoque, o que pode resultar em problemas como falta de produtos em momentos críticos, excesso de estoque de itens desnecessários, perda de vendas devido à falta de disponibilidade de produtos e dificuldades na identificação de produtos com baixo giro.
 
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 *. Objetivo Geral:*
@@ -24,10 +18,6 @@ Desenvolver um sistema de gestão de estoque simples e intuitivo para o cliente 
 - Garantir a integridade e segurança dos dados do sistema;
 - Fornecer suporte e treinamento para o microempreendedor individual na utilização do sistema. 
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 A implementação de um sistema de gestão de estoque trará diversos benefícios para o cliente, incluindo:
@@ -37,12 +27,21 @@ A implementação de um sistema de gestão de estoque trará diversos benefício
 - Facilitação na identificação de produtos com baixo giro e necessidade de reposição;
 - Otimização dos processos administrativos, liberando tempo para atividades mais estratégicas.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Com a implementação bem-sucedida deste sistema de gestão de estoque, espera-se que o cliente possa otimizar suas operações, aumentar sua produtividade e garantir um atendimento mais eficiente aos seus clientes.
 
 ## Relação com a Extensão Universitária
 
-Com a implementação bem-sucedida deste sistema de gestão de estoque, espera-se que o cliente possa otimizar suas operações, aumentar sua produtividade e garantir um atendimento mais eficiente aos seus clientes.
+*Estreitando Vínculos: A Parceria entre o Projeto Sociotecnico Inovador e a Pró-Reitoria de Extensão da PUC Minas*
+
+A colaboração entre o projeto de implementação do sistema de gestão de estoque e a Pró-Reitoria de Extensão da PUC Minas é um exemplo vivo do compromisso da instituição com a aplicação prática do conhecimento e o desenvolvimento da comunidade local.
+
+Ao unir esforços com a Pró-Reitoria de Extensão, os alunos responsáveis pela implementação do projeto têm a oportunidade de ir além das paredes da sala de aula e se engajar em uma experiência enriquecedora de aprendizado prático. 
+
+Para a Pró-Reitoria de Extensão, essa colaboração representa uma oportunidade de estender seu impacto para além do campus, alcançando diretamente a comunidade local e contribuindo para o desenvolvimento regional. Ao apoiar projetos como este, a instituição reafirma seu compromisso com a responsabilidade social e o engajamento cívico, demonstrando seu papel ativo na promoção do bem-estar e progresso da sociedade.
+
+Para o empreendimento familiar de João Jorge dos Reis Universal Box, representado por seu filho Gustavo Henrique dos Reis neste projeto, a parceria com a Pró-Reitoria de Extensão é uma fonte valiosa de conhecimento e expertise técnica. Além de beneficiar-se diretamente das soluções desenvolvidas pelos alunos, o empreendimento também tem a oportunidade de contribuir para a formação e capacitação da próxima geração de profissionais, compartilhando sua experiência e oferecendo um ambiente de aprendizado prático e enriquecedor.
+
+Em resumo, a relação entre o projeto de implementação do sistema de gestão de estoque e a Pró-Reitoria de Extensão da nossa faculdade é uma parceria mutuamente benéfica, que fortalece os laços entre a academia e a comunidade, promove o aprendizado prático dos alunos e contribui para o desenvolvimento sustentável da região.
 
 ## Descrição do Parceiro
 
