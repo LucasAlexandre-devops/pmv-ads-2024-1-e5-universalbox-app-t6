@@ -21,12 +21,18 @@ Colocar a imagem do modelo construído apresentando a proposta de solução.
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
+
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve liberar acesso apenas com login e senha | ALTA | 
+|RF-002| O sistema deve permitir inserir, alterar, deletar e pesquisar no catálogo de produtos   | ALTA |
+|RF-003| O sistema deve permitir receber pedidos de produtos | ALTA | 
+|RF-004| O sistema deve permitir dar baixa de produtos de estoque  | ALTA |
+|RF-005| O sistema deve permitir gerar relatórios de produtos no estoque | MÉDIA | 
+|RF-006| O sistema deve permitir editar conta do usuário   | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
@@ -34,6 +40,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| O usuário dos sistema deve necessitar de um navegador web com conexão com internet para acesso | ALTA |  
+|RNF-004| O sistema deve permitir ter uma interface intuitiva e de fácil utilização| MÉDIA | 
+|RNF-005| O sistema deve permitir a impelmentação de novas funcionalidades | MÉDIA | 
+|RNF-006| O sistema deve garantir que apenas usuários cadastrados na base de dados tenham acesso | ALTA |
+|RNF-007| O sistema deve fazer o registro de acesso do usuário | MÉDIA | 
+|RNF-008| O sistema deve utilizar um banco de dados relacional para o armazenamento e controle de dados | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -68,6 +80,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+
+![Diagrama de Casos de Uso](/documentos/img/casos-de-uso.png)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
