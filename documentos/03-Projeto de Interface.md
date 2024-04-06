@@ -19,7 +19,7 @@ Visão geral da interação do usuário com as funcionalidades que fazem parte d
 ## TELA MENU INICIAL
 ![TELA-MENU-INICIAL](img/TELA-MENU-INICIAL.png)
 
-##TELA ADICIONAR CLIENTES
+## TELA ADICIONAR CLIENTES
 ![TELA-ADICIONAR-CLIENTES](img/TELA-ADICIONAR-CLIENTES.png)
 
 ## TELA LISTA CLIENTES
