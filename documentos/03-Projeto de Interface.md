@@ -37,7 +37,7 @@ Visão geral da interação do usuário com as funcionalidades que fazem parte d
 ## TELA ESTOQUE
 ![TELA-ESTOQUE](img/TELA-ESTOQUE.png)
 
-##TELA VENDAS 
+## TELA VENDAS 
 ![TELA-VENDAS](img/TELA-VENDAS.png)
 
 
