@@ -3,10 +3,26 @@ const express           = require('express'),
       Produto           = require('./dbFiles/produto'),
       cors              = require('cors');
 
-let caixa = new Produto(2, 'Caixa', 'Caixa Universal', 'Caixa Preta', 30.50);
+const API_PORT = process.env.PORT || 5000;
+const app = express();
 
-console.log(caixa);
+let cliente;
+let sessao;
+app.use(express.json());
+app.use(express.urlencoded());
+app.use(cors());
 
-dbOperation.getProdutos().then(res => {
-     console.log(res.recordset);
-})
+app.post('/api', async (req, res) => {
+     console.log('chamada feita');
+     const result = await dbOperation.getProdutos(req.body.name)
+     res.send(result.recordset);
+});
+
+app.post('/hello', function(req, res){
+     console.log('???');
+     res.send({result: 'Galo Doido 13'});
+});
+
+//dbOperation.createProduto(caixa);
+
+app.listen(API_PORT, () => console.log(`ouvindo ${API_PORT}`));

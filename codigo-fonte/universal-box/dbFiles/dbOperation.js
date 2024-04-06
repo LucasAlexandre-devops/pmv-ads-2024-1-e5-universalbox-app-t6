@@ -1,10 +1,10 @@
 const config                    = require ('./dbConfig'),
       sql                       = require('mssql');
 
-const getProdutos = async() => {
+const getProdutos = async(ProdutoNome) => {
     try{
         let pool = await sql.connect(config);
-        let produtos = pool.request().query("SELECT * from Produtos")
+        let produtos = await pool.request().query(`SELECT * from Produtos WHERE ProdutoNome = ${ProdutoNome}`)
         console.log(produtos);
         return produtos;
     }
