@@ -4,3 +4,40 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 Visão geral da interação do usuário com as funcionalidades que fazem parte do sistema sociotécnico (protótipo de telas).
+
+# Wireframes
+
+## TELA CADASTRO
+![TELA-CADASTRAR](img/TELA-CADASTRAR.png)
+
+## TELA LOGIN
+![TELA-LOGIN](img/TELA-LOGIN.png)
+
+## TELA RECUPERAR SENHA
+![TELA-RECUPERAR-SENHA](img/TELA-RECUPERAR-SENHA.png)
+
+## TELA MENU INICIAL
+![TELA-MENU-INICIAL](img/TELA-MENU-INICIAL.png)
+
+##TELA ADICIONAR CLIENTES
+![TELA-ADICIONAR-CLIENTES](img/TELA-ADICIONAR-CLIENTES.png)
+
+## TELA LISTA CLIENTES
+![TELA-LISTA-CLIENTES](img/TELA-LISTA-CLIENTES.png)
+
+## TELA LISTA FORNECEDORES
+![TELA-LISTA-FORNECEDORES](img/TELA-LISTA-FORNECEDORES.png)
+
+## TELA ADICIONAR PRODUTO
+![TELA-ADICIONAR-PRODUTO](img/TELA-ADICIONAR-PRODUTO.png)
+
+## TELA GERENCIAMENTO DE PRODUTOS
+![TELA-GERENCIAMENTO-PRODUTOS](img/TELA-GERENCIAMENTO-PRODUTOS.png)
+
+## TELA ESTOQUE
+![TELA-ESTOQUE](img/TELA-ESTOQUE.png)
+
+##TELA VENDAS 
+![TELA-VENDAS](img/TELA-VENDAS.png)
+
+
