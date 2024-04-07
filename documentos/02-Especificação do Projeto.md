@@ -12,7 +12,7 @@ o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a s
 
 ## Project Model Canvas
 
-Colocar a imagem do modelo construído apresentando a proposta de solução.
+[Project Canvas Universal Box.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/files/14899333/Project.Canvas.Universal.Box.pdf)
 
 > **Links Úteis**:
 > Disponíveis em material de apoio do projeto
