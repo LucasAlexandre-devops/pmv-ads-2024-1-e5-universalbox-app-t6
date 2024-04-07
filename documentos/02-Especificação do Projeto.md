@@ -12,7 +12,8 @@ o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a s
 
 ## Project Model Canvas
 
-![Project Canvas Universal Box](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/abf7cafc-6647-4e9a-abb2-25845edd35a6)
+![Project Canvas Universal Box](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/7725e4e6-3d48-44e0-8ecb-8d066e6fe986)
+
 
 
 > **Links Úteis**:
