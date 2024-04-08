@@ -1,89 +1,61 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './Navbar';
 
 function Produtos() {
 
-    const [returnedData, setReturnedData] = useState(['teste use state']);
-    const [produto, setProduto] = useState([{ProdutoId: 0, ProdutoNome: '', FornecedorNome: '', ProdutoModelo:'', ProdutoPreco: 0}]);
+  const [returnedData, setReturnedData] = useState('teste use state');
+  const [produtos, setProdutos] = useState([]);
 
-    const setInput = (e) => {
-        const {name, value} = e.target;
-        console.log(value);
-        if(name === 'ProdutoId' || name === 'ProdutoPreco'){
-            setProduto(prevState => ({
-                ...prevState,
-                [name]: parseInt(value)
-            }));
-            return;
-        }
-        setProduto(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
-    }
-
-    const fetchData = async() => {
-      const newData = await fetch('/api', {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-            name: produto.ProdutoNome
-        })
-      })
+  const fetchData = async () => {
+    const newData = await fetch('/api', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
       .then(res => res.json());
-      console.log(newData);
-      setReturnedData(newData[0])
-    }
+    console.log(newData);
+    setProdutos(newData)
+  }
 
+  useState(() => fetchData(), [])
 
-    return (
-      <div className="App">
-        <input 
-          type='number' 
-          name='ProdutoId' 
-          placeholder='ProdutoId' 
-          onChange={setInput}>
-        </input>
-  
-        <input 
-          name='ProdutoNome' 
-          placeholder='ProdutoNome' 
-          onChange={setInput}>
-        </input>
-          
-        <input 
-          name='FornecedorNome' 
-          placeholder='FornecedorNome' 
-          onChange={setInput}>
-        </input>
-  
-        <input 
-          name='ProdutoModelo' 
-          placeholder='ProdutoModelo' 
-          onChange={setInput}>
-        </input>
-  
-        <input 
-          type='number' 
-          name='ProdutoPreco' 
-          placeholder='ProdutoPreco' 
-          onChange={setInput}>
-        </input>
-  
-        <button onClick={() => fetchData()}>Clique</button>
-        <button onClick={() => fetchData()}>Criar Produto</button>
-  
-        <p>ProdutoId: {returnedData.ProdutoId}</p>
-        <p>ProdutoNome: {returnedData.ProdutoNome}</p>
-        <p>FornecedorNome: {returnedData.FornecedorNome}</p>
-        <p>ProdutoModelo: {returnedData.ProdutoModelo}</p>
-        <p>ProdutoPreco: {returnedData.ProdutoPreco}</p>
-  
-        {returnedData}
-      </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <table className="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            produtos.map((produto) => {
+              return (
+                <tr key={produto.ProdutoId} >
+                  <td>{produto.ProdutoId}</td>
+                  <td>{produto.ProdutoNome}</td>
+                  <td>{produto.FornecedorNome}</td>
+                  <td>{produto.ProdutoModelo}</td>
+                  <td>{produto.ProdutoPreco}</td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+        <Link to="/cadastroproduto" class="btn btn-primary">Cadastrar Novo Produto</Link>
+      </table>
+    </div>
+  );
 }
 
 export default Produtos

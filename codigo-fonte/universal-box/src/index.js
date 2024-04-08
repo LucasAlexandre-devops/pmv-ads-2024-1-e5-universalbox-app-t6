@@ -1,20 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider }from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home';
 import Produtos from './routes/Produtos';
-import App from './App';
+import CadastroProduto from './routes/CadastroProduto';
+import Navbar from './routes/Navbar';
+import Clientes from './routes/Clientes';
+import CadastroCliente from './routes/CadastroCliente';
 import './index.css';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>
+    element: <Home />
   },
   {
     path: "produtos",
-    element: <Produtos/>
+    element: <Produtos />
+  },
+  {
+    path: "cadastroproduto",
+    element: <CadastroProduto />
+  },
+  {
+    path: "navbarcomponent",
+    element: <Navbar />
+  },
+  {
+    path: "clientes",
+    element: <Clientes />
+  },
+  {
+    path: "cadastrocliente",
+    element: <CadastroCliente />
   }
 ])
 

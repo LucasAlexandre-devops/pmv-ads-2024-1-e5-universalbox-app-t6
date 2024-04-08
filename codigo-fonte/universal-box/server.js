@@ -1,7 +1,8 @@
-const express           = require('express'),
-      dbOperation       = require('./dbFiles/dbOperation'),
-      Produto           = require('./dbFiles/produto'),
-      cors              = require('cors');
+const express = require('express'),
+     dbOperation = require('./dbFiles/dbOperation'),
+     Produto = require('./dbFiles/produto'),
+     Cliente = require('./dbFiles/cliente'),
+     cors = require('cors');
 
 const API_PORT = process.env.PORT || 5000;
 const app = express();
@@ -12,17 +13,29 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
 
-app.post('/api', async (req, res) => {
-     console.log('chamada feita');
-     const result = await dbOperation.getProdutos(req.body.name)
+app.get('/api', async (req, res) => {
+     const result = await dbOperation.getProdutos(res.body);
      res.send(result.recordset);
 });
 
-app.post('/hello', function(req, res){
-     console.log('???');
-     res.send({result: 'Galo Doido 13'});
+app.post('/criar', async (req, res) => {
+     await dbOperation.createProduto(req.body);
+     const result = await dbOperation.getProdutos(req.body.ProdutoNome);
+     res.send(result.recordset);
 });
 
-//dbOperation.createProduto(caixa);
+app.get('/apicliente', async (req, res) => {
+     const result = await dbOperation.getClientes(res.body);
+     res.send(result.recordset);
+});
+
+app.post('/criarcliente', async (req, res) => {
+     await dbOperation.createCliente(req.body);
+     const result = await dbOperation.getClientes(req.body.ClienteNome);
+     res.send(result.recordset);
+});
+
+dbOperation.getClientes().then(res => {
+});
 
 app.listen(API_PORT, () => console.log(`ouvindo ${API_PORT}`));

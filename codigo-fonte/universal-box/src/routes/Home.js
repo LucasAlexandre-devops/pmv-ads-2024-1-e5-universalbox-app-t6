@@ -1,11 +1,13 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import Produtos from './Produtos'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import Navbar from './Navbar';
 
 const Home = () => {
     return (
         <div>
-            <Link to="produtos">PRODUTOS</Link>
+            <Navbar />
+            <Link to="produtos" className="card text-white bg-primary mb-3" styles="max-width: 20rem;">PRODUTOS</Link>
+            <Link to="clientes" className="card text-white bg-primary mb-3" styles="max-width: 20rem;">CLIENTES</Link>
         </div>
     )
 }
