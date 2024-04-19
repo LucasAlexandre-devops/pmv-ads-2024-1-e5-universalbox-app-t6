@@ -11,7 +11,6 @@ O projeto consiste no desenvolvimento de um aplicativo móvel para uma empresa d
 ## Integrantes
 
 * Gabriel Miranda Cangussu
-* Hiago Filippe de Assis Soares Leão
 * Lucas Alexandre da Silva Santos
 * Mariana Marcela Mercier de Oliveira
 * Paulo Vitor Pereira Rocha
