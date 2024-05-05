@@ -83,20 +83,16 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 ![Diagrama de Casos de Uso](/documentos/img/casos-de-uso.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 ## Modelo ER (Projeto Conceitual)
 
-![MODELO ER BOX](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/3080dd0d-5b50-455f-9065-ab001e6f7ee8)
+![MODELO ER UNIVERSAL BOX](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/3954484d-8b80-4114-96d6-81b446005d44)
+
 
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+
+![PROJETO DE BASE DE DADOS ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/e9df73fc-4152-4fb1-8219-095343ea80bf)
+
