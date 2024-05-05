@@ -1,23 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 
 function CadastroCliente() {
     const [returnedData, setReturnedData] = useState('teste use state');
-    const [clientes, setClientes] = useState([]);
+    const [clientes, setClientes] = useState({ ClienteId: '', ClienteNome: '', ClienteCpf: '', ClienteTelefone: '', ClienteCep: '' });
 
     const setInput = (e) => {
         const { name, value } = e.target;
         console.log(value);
-        if (name === 'ClienteId') {
-            setClientes(prevState => ({
-                ...prevState,
-                [name]: parseInt(value)
-            }));
-            return;
-        }
         setClientes(prevState => ({
             ...prevState,
-            [name]: value
+            [name]: name === 'ClienteId' ? parseInt(value) : value
         }));
     }
 
@@ -29,9 +22,7 @@ function CadastroCliente() {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             },
-            body: JSON.stringify({
-                ...clientes
-            })
+            body: JSON.stringify(clientes)
         })
             .then(res => res.json());
         console.log(newData);
@@ -39,44 +30,64 @@ function CadastroCliente() {
     }
 
     return (
-        <form>
+        <div>
             <Navbar />
+            <div className="container mt-5">
+                <div className="row justify-content-center">
+                    <div className="col-md-6">
+                        <div className="card">
+                            <div className="card-body">
+                                <h1 className="card-title">Cadastrar Cliente</h1>
+                                <div className="form-group">
+                                    <input
+                                        type='number'
+                                        className="form-control mb-3"
+                                        placeholder="ID"
+                                        name="ClienteId"
+                                        value={clientes.ClienteId}
+                                        onChange={setInput} />
 
-            <div class="form-group">
-                <h1>Cadastrar Cliente</h1>
-                <input type='number'
-                    class="form-control"
-                    placeholder="ID"
-                    name="ClienteId"
-                    onChange={setInput} />
+                                    <input
+                                        className="form-control mb-3"
+                                        placeholder="Nome"
+                                        name="ClienteNome"
+                                        value={clientes.ClienteNome}
+                                        onChange={setInput} />
 
-                <input
-                    class="form-control"
-                    placeholder="Nome"
-                    name="ClienteNome"
-                    onChange={setInput} />
+                                    <input
+                                        className="form-control mb-3"
+                                        placeholder="CPF"
+                                        name="ClienteCpf"
+                                        value={clientes.ClienteCpf}
+                                        onChange={setInput} />
 
-                <input
-                    class="form-control"
-                    placeholder="CPF"
-                    name="ClienteCpf"
-                    onChange={setInput} />
+                                    <input
+                                        className="form-control mb-3"
+                                        placeholder="Telefone"
+                                        name="ClienteTelefone"
+                                        value={clientes.ClienteTelefone}
+                                        onChange={setInput} />
 
-                <input
-                    class="form-control"
-                    placeholder="Telefone"
-                    name="ClienteTelefone"
-                    onChange={setInput} />
-
-                <input
-                    class="form-control"
-                    placeholder="CEP"
-                    name="ClienteCep"
-                    onChange={setInput} />
+                                    <input
+                                        className="form-control mb-3"
+                                        placeholder="CEP"
+                                        name="ClienteCep"
+                                        value={clientes.ClienteCep}
+                                        onChange={setInput} />
+                                </div>
+                                <button
+                                    type="button"
+                                    className="btn btn-primary btn-block"
+                                    onClick={createCliente}>
+                                    Cadastrar Novo Cliente
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <button type="button" class="btn btn-primary" onClick={() => createCliente()}>Cadastrar Novo cliente</button>
-        </form>
+        </div>
     );
 }
 
-export default CadastroCliente
+export default CadastroCliente;
