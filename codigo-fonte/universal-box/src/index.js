@@ -8,6 +8,7 @@ import CadastroProduto from './routes/CadastroProduto';
 import Navbar from './routes/Navbar';
 import Clientes from './routes/Clientes';
 import CadastroCliente from './routes/CadastroCliente';
+import Login from './routes/Login';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "cadastrocliente",
     element: <CadastroCliente />
+  },
+  {
+    path: "login",
+    element: <Login />
   }
 ])
 
