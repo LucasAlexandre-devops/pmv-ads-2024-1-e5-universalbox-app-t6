@@ -33,6 +33,9 @@ function Navbar() {
             <li class="nav-item">
               <Link to="/clientes" class="nav-link">Clientes</Link>
             </li>
+            <li class="nav-item">
+              <Link to="/fornecedores" class="nav-link">Fornecedores</Link>
+            </li>
             <li className="nav-item">
               <Link to="/login" className="nav-link">Login</Link>
             </li>

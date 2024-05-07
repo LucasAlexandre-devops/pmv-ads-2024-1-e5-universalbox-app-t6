@@ -9,6 +9,8 @@ import Navbar from './routes/Navbar';
 import Clientes from './routes/Clientes';
 import CadastroCliente from './routes/CadastroCliente';
 import Login from './routes/Login';
+import Fornecedores from './routes/Fornecedores';
+import CadastroFornecedor from './routes/CadastroFornecedor';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -39,7 +41,15 @@ const router = createBrowserRouter([
   {
     path: "login",
     element: <Login />
-  }
+  },
+  {
+    path: "fornecedores",
+    element: <Fornecedores />
+  },
+  {
+    path: "cadastrofornecedor",
+    element: <CadastroFornecedor/>
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
