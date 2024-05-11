@@ -52,31 +52,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| O usuário dos sistema deve necessitar de um navegador web com conexão com internet para acesso | ALTA |  
-|RNF-004| O sistema deve permitir ter uma interface intuitiva e de fácil utilização| MÉDIA | 
-|RNF-005| O sistema deve permitir a impelmentação de novas funcionalidades | MÉDIA | 
-|RNF-006| O sistema deve garantir que apenas usuários cadastrados na base de dados tenham acesso | ALTA |
-|RNF-007| O sistema deve fazer o registro de acesso do usuário | MÉDIA | 
-|RNF-008| O sistema deve utilizar um banco de dados relacional para o armazenamento e controle de dados | MÉDIA |
+| Requisito                                       | Descrição                                                                      | Prioridade |
+|-------------------------------------------------|--------------------------------------------------------------------------------|------------|
+| RNF001 - Desempenho                             | O sistema deve ser capaz de lidar com um grande volume de dados de forma eficiente. | Alta       |
+| RNF002 - Usabilidade                            | A interface do usuário deve ser intuitiva e de fácil aprendizado.               | Alta       |
+| RNF003 - Disponibilidade                        | O sistema deve estar disponível 24 horas por dia, 7 dias por semana.            | Alta       |
+| RNF004 - Segurança                              | Garantir a segurança dos dados do estoque,controle de acesso. | Alta       |
+| RNF005 - Escalabilidade                         | O sistema deve ser capaz de lidar com um aumento no número de usuários e volume de dados. | Alta       |
+| RNF006 - Portabilidade                          | Deve ser possível acessar o sistema de diferentes dispositivos e plataformas.   | Média      |
+| RNF007 - Confiabilidade                         | O sistema deve ser confiável e evitar falhas ou interrupções não planejadas.    | Alta       |
+| RNF008 - Manutenibilidade                      | Facilidade de manutenção e atualização do sistema, com código bem documentado.  | Média      |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
