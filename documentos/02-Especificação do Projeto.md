@@ -23,11 +23,6 @@
 ![Project Canvas Universal Box](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/48378c6f-4f82-405d-bff4-6a2fc88724bc)
 
 
-
-
-> **Links Úteis**:
-> Disponíveis em material de apoio do projeto
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
