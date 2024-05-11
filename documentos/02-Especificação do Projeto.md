@@ -69,10 +69,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| Restrição                                         | Descrição                                                                                         |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| R1 - Restrições de Orçamento                      | Restrições financeiras para a implementação do sistema de controle de estoque.                    |
+| R2 - Restrições de Tempo                          | Restrições de prazo para o desenvolvimento e implementação do sistema até o fim do semestre.                            |
+| R3 - Restrições de Tecnologia                     | Restrições relacionadas às tecnologias específicas que podem ser usadas para o desenvolvimento.   |
+| R4 - Restrições Legais e Regulatórias             | Conformidade com regulamentos governamentais e leis relacionadas ao armazenamento de dados.       |
+| R5 - Restrições de Integração com Sistemas       | Restrições relacionadas à integração com sistemas existentes na empresa.                          |
+| R6 - Restrições de Infraestrutura                 | Limitações de recursos de hardware e rede para o sistema.                                         |
+| R7 - Restrições de Segurança da Informação        | Requisitos de segurança para proteger os dados do estoque de acessos não autorizados.             |
+| R8 - Restrições de Acesso e Permissões            | Restrições sobre quem pode acessar e modificar os dados no sistema.                                |
+
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
