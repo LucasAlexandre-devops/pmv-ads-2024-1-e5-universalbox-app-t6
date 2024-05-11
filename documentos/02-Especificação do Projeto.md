@@ -1,6 +1,17 @@
 # Especificações do Projeto
 
 ## Arquitetura e Tecnologias
+  | Tecnologia       | Descrição                             |
+|------------------|-----------------------------------------|
+| Visual Studio    | IDE                                     |
+| HTML,css,javascricpt| Linguagem utilizadas no front -end   |
+| C#      | Linguagem utilizada no back end                  |
+| Frameworks        | Bootstrap,Asp.net, Entity Framework    |
+| Banco de Dados NoSQL      | MongoDB                        |
+
+
+
+
 
 ![Captura de tela 2024-05-05 174940](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-universalbox-app-t6/assets/91230711/8946fb9b-920f-499e-a69d-88337e265e79)
 
