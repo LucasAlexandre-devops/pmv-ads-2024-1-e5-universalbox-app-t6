@@ -37,12 +37,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve liberar acesso apenas com login e senha | ALTA | 
-|RF-002| O sistema deve permitir inserir, alterar, deletar e pesquisar no catálogo de produtos   | ALTA |
-|RF-003| O sistema deve permitir receber pedidos de produtos | ALTA | 
-|RF-004| O sistema deve permitir dar baixa de produtos de estoque  | ALTA |
-|RF-005| O sistema deve permitir gerar relatórios de produtos no estoque | MÉDIA | 
-|RF-006| O sistema deve permitir editar conta do usuário   | MÉDIA |
+|RF-001- Login de Acesso | O sistema deve liberar acesso apenas com login e senha | ALTA | 
+|RF-002- Cátalogo| O sistema deve permitir inserir, alterar, deletar e pesquisar no catálogo de produtos   | ALTA |
+|RF-003- Entrada de Pedidos | O sistema deve permitir receber pedidos de produtos | ALTA | 
+| RF004 - Cadastro de produtos                    | Permitir o cadastro de produtos no sistema, incluindo nome, descrição e preço. | Alta       |
+| RF005 - Controle de estoque                     | Manter registro do estoque atual de cada produto, com entradas e saídas.       | Alta       |
+| RF006 - Alerta de estoque baixo                 | Emitir alertas quando a quantidade de um produto atingir um nível mínimo.      | Média      |
+| RF007 - Geração de relatórios de estoque        | Gerar relatórios detalhados sobre o estoque atual da empresa.                  | Média      |
+| RF008 - Rastreamento de produtos                | Permitir rastrear a localização e movimentação de produtos no estoque.         | Alta       |
+| RF009 - Integração com fornecedores             | Integrar o sistema com fornecedores para atualização automática de estoque.    | Alta       |
+| RF010 - Controle de acesso e permissões         | Definir diferentes níveis de acesso para funcionários do sistema.              | Alta       |
+| RF011 - Histórico de transações                 | Manter histórico de todas as transações de entrada e saída de estoque.         | Alta       |
 
 
 ### Requisitos não Funcionais
