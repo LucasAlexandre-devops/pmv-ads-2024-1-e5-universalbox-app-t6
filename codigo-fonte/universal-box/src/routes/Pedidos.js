@@ -36,7 +36,7 @@ function CadastroProduto() {
           <div className="col-md-6">
             <div className="card">
               <div className="card-body">
-                <h1 className="card-title">Cadastrar Produto</h1>
+                <h1 className="card-title">Novo Pedido</h1>
                 <div className="form-group">
                   <input
                     className="form-control mb-3"

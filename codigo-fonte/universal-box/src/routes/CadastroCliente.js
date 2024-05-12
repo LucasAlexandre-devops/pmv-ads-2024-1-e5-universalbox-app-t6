@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+import { Navigate } from 'react-router-dom';
 
 function CadastroCliente() {
     const [returnedData, setReturnedData] = useState('teste use state');
-    const [clientes, setClientes] = useState({ ClienteId: '', ClienteNome: '', ClienteCpf: '', ClienteTelefone: '', ClienteCep: '' });
+    const [clientes, setClientes] = useState({ ClienteNome: '', ClienteCpf: '', ClienteTelefone: '', ClienteCep: '' });
 
     const setInput = (e) => {
         const { name, value } = e.target;
@@ -15,7 +16,6 @@ function CadastroCliente() {
     }
 
     const createCliente = async () => {
-        console.log(clientes)
         const newData = await fetch('/criarcliente', {
             method: 'POST',
             headers: {
@@ -24,8 +24,8 @@ function CadastroCliente() {
             },
             body: JSON.stringify(clientes)
         })
-            .then(res => res.json());
-        console.log(newData);
+            .then(res => res.json())
+            .then(<Navigate push to="/clientes" />);
         setReturnedData(newData[0])
     }
 
@@ -39,14 +39,6 @@ function CadastroCliente() {
                             <div className="card-body">
                                 <h1 className="card-title">Cadastrar Cliente</h1>
                                 <div className="form-group">
-                                    <input
-                                        type='number'
-                                        className="form-control mb-3"
-                                        placeholder="ID"
-                                        name="ClienteId"
-                                        value={clientes.ClienteId}
-                                        onChange={setInput} />
-
                                     <input
                                         className="form-control mb-3"
                                         placeholder="Nome"
